@@ -45,6 +45,7 @@ socket.on("leave", function(userName){
 });
 
 
+
 socket.on("chat-left", function(messageObj){
     let chat = document.createElement("div");
         chat.classList.add("chat");
